@@ -5,8 +5,9 @@
 #include <stdlib.h>
 #include "head.h"
 
+static int array[10];
+
 void func01(void) {
-    int array[10] = {};
     array[10] = 5;
     return;
 }
