@@ -1,7 +1,8 @@
 #!/usr/bin/make
 # Makefile
 CXX       := gcc
-CXXFLAGS  := -std=c++0x -Werror -Wall -Wextra -Wfloat-equal -Wmissing-include-dirs
+#CXXFLAGS  := -std=c++0x -Werror -Wall -Wextra -Wfloat-equal -Wmissing-include-dirs
+CXXFLAGS  := -std=c++0x -Werror -Wall -Wextra -Wmissing-include-dirs
 
 SAFLAGS   := -DSTATIC_ANALYSIS
 LDFLAGS   :=
