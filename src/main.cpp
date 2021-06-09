@@ -30,6 +30,15 @@ void func03(void) {
     return;
 }
 
+int func04(double a, double b) {
+    // compare floating point values by equal
+    if (a == b) {
+        return 1U;
+    } else {
+        return 0U;
+    }
+}
+
 int main(void) {
     func01();
     func02();
